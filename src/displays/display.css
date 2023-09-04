@@ -1,0 +1,29 @@
+.type-flex {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.topbar-grid {
+    display: grid;
+    grid-template-columns: minmax(250px,1fr) minmax(200px, 3fr);
+    align-items: center;
+}
+
+.topbar-grid > div {
+    padding: 15px;
+}
+
+.topbar-search {
+    display: flex;
+}
+
+.topbar-back {
+    justify-self: center;
+}
+
+.topbar-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

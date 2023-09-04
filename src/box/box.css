@@ -1,0 +1,19 @@
+.row-grid {
+    display: grid;
+    grid-template-columns: minmax(100px,1fr) minmax(100px,3fr);
+    align-items: center;
+}
+
+.stat-grid {
+    display: grid;
+    grid-template-columns: minmax(100px,1fr) minmax(50px,1fr) minmax(100px,4fr);
+}
+
+.row-grid > div,
+.stat-grid > div {
+    padding: 15px 20px;
+}
+
+.stat-value {
+    justify-self: end;
+}

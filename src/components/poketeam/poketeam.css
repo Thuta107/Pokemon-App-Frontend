@@ -1,0 +1,15 @@
+.poke-team-grid {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 120px 30px;
+    place-content: center;
+}
+
+.poke-move-grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-top: 10px;
+}

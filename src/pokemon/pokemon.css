@@ -1,0 +1,23 @@
+.poke-link {
+    text-decoration: none;
+    color: black;
+}
+
+.pokecard-grid {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit, 250px);
+    padding: 120px 20px;
+    place-content: center;
+}
+
+.pokecard-title {
+    text-align: center;
+    padding: 10px;
+    padding-top: 0;
+}
+
+.poke-img {
+    max-width: 250px;
+    padding: 20px;
+}

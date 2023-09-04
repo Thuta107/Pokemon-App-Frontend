@@ -1,0 +1,10 @@
+.move-grid {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit, 400px);
+    grid-template-rows: auto;
+    margin: 50px;
+    margin-top: 120px;
+    justify-items: center;
+    place-content: center;
+}

@@ -1,0 +1,33 @@
+.team-grid {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(auto-fit, 450px);
+    grid-auto-rows: minmax(450px, auto);
+    margin: 30px;
+    margin-top: 120px;
+    place-content: center;
+}
+
+.team-title {
+    padding-left: 15px;
+}
+
+.add-button {
+    align-self: center;
+    justify-self: center;
+}
+
+.teamslot-grid {
+    display: grid;
+    grid-template-columns: minmax(100px,1fr) minmax(100px,3fr);
+    align-items: center;
+}
+
+.teamslot-grid > div {
+    padding: 15px 20px;
+}
+
+.team-link {
+    text-decoration: none;
+    color: black;
+}

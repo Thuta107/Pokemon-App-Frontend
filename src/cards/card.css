@@ -1,0 +1,24 @@
+.sprite-image {
+    width: 200px;
+    height: 200px;
+}
+
+.art-image {
+    width: 350px;
+    height: 350px;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.dex-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+}
+
+.dex-grid > div {
+    padding: 20px 50px;
+}
